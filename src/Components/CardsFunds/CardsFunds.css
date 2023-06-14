@@ -1,0 +1,68 @@
+.cardsfunds {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 40vh;
+  margin-top: 0%;
+  position: relative;
+}
+.cardsfunds-all {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.cardsfunds-1,
+.cardsfunds-2,
+.cardsfunds-3,
+.cardsfunds-4 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23.5%;
+  height: 70%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  margin-left: 0.7%;
+  cursor: pointer;
+}
+.cardsfunds-1 {
+  margin-left: 0%;
+}
+.cards-icon {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  font-size: 36px;
+  margin-top: -25%;
+  background-color: #fff;
+}
+
+.cards-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10%;
+}
+.cards-discription {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 4%;
+}
+
+.cardsfunds-1:hover,
+.cardsfunds-2:hover,
+.cardsfunds-3:hover,
+.cardsfunds-4:hover {
+  border: 3px solid #16a086;
+}
